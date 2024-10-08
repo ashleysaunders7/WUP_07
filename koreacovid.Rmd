@@ -50,10 +50,16 @@ colPerc(table1)
 ```
 
 The data shows evidence that the majority of the alive population were female, with a ratio of 56:44. Furthermore, the dead population was majority male, with a ratio of 36:64. 3% of males were dead and 1.4% of females were also dead.
+
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+According to the Null results, there should be an equal distribution of dead and alive male and female individuals. The observed counts, however, revealed that the proportion of dead women was almost twice as high as that of men. Men are more likely than women to die, as seen by the 2:3 ratio of female to male deaths.
 
 ## Conclusions
 
