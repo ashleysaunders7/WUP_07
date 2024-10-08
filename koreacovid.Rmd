@@ -63,3 +63,5 @@ According to the Null results, there should be an equal distribution of dead and
 
 ## Conclusions
 
+Despite the fact that women make up the bulk of the population, the facts and graphs shown indicate a correlation between sex and death, with men being more than twice as likely to die as women.
+
